@@ -1,0 +1,53 @@
+/*General*/
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color:#444;
+
+}
+a{
+    text-decoration:none; 
+    color:#444;
+}
+ul{
+    list-style-type: none;
+
+}
+.wrapper{
+    width:940px;
+    margin:0 auto;
+    padding:0 10px;
+}
+.orange {
+    color:#ff7a00
+}
+/* Header*/
+header {
+    height: 120px;
+
+}
+header h1{
+
+float: left;
+}
+header nav {
+    float: right; 
+    margin-top: 50px;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li {
+    text-transform:uppercase; 
+        font-weight: bold;
+    }
